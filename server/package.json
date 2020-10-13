@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/js/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.11.2",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
