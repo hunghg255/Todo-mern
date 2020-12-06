@@ -1,8 +1,8 @@
 # Todo-mern
 todo mern
 
-# 1. Tạo 1 cluster trên *https://cloud.mongodb.com/*
-# 2. Tạo 1 file nodemon.json trong thư mục server, th
+## 1. Tạo 1 cluster trên *https://cloud.mongodb.com/*
+## 2. Tạo 1 file nodemon.json trong thư mục server
 ```
 {
   "env": {
@@ -13,6 +13,6 @@ todo mern
 }
 ```
 
-# 3. *npm install* trong thư mục server và client
+## 3. *npm install* trong thư mục server và client
 
-# 4. *npm start* server và client
+## 4. *npm start* server và client
